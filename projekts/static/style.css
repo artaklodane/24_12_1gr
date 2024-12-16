@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Gaišākā krāsa no paletes */
+}
+
+header {
+    text-align: center;
+    background-color: #87ceeb;
+    padding: 1em;
+}
+
+h1 {
+    color: #4682b4; /* Tumšākā krāsa no paletes */
+}
+
+h2 {
+    color: #5f9ea0; /* Vidējā krāsa no paletes */
+    font-style: italic;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 2em;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+    color: #4682b4;
+}
+
+input[type="text"],
+input[type="number"] {
+    border: 2px solid #5f9ea0;
+    padding: 0.5em;
+    width: calc(100% - 1em);
+}
+
+input[type="text"]:hover,
+input[type="number"]:hover {
+    border-color: #87ceeb;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f9ea0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #87ceeb;
+}
+
+th, td {
+    border: 1px solid #4682b4;
+    padding: 0.5em;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f0f8ff;
+}
+
+.average {
+    font-style: italic;
+    color: #4682b4;
+}
